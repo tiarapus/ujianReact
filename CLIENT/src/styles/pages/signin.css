@@ -1,0 +1,19 @@
+.body{
+    /* background-color: #3A4F7A; */
+    height: 100vh;
+}
+.body .container{
+    margin: auto;
+    padding-top: 80px;
+    padding-left: 80px;
+    /* padding-top: 60px; */
+}
+.body .container .cards{
+    background-color: aliceblue;
+    margin: 0 20px;
+}
+
+.body .container .cards .header{
+   font-size: larger;
+   padding-left: 50px;
+}

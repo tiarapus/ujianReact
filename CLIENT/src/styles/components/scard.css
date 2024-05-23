@@ -1,0 +1,51 @@
+.cards{
+    min-width: 200px;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.cards .header{
+    padding-bottom: 10px;
+}
+.cards .header span{
+    display: flex;
+    
+}
+
+.cards .header span .text{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.cards .header span a{
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+}
+.cards .header span a:hover{
+    color: #3A4F7A;
+    text-decoration: underline;
+}
+.cards form input {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 25px;
+    -webkit-box-sizing: border-box; 
+    padding: 10px 8px;
+    font-size: 12px;
+
+}
+
+::placeholder{
+    font-size: 10px;
+}
+.cards button{
+    background-color: #3A4F7A;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+    color: white;
+    font-size: 14px;
+}
+

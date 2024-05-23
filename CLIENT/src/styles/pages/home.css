@@ -1,0 +1,16 @@
+.home{
+    display: flex;
+    padding-top: 4rem;
+    overflow: hidden;
+    margin: auto;
+    padding-left: 160px;
+    height: 100%;
+}
+
+.home .content{
+    display: flex;
+    margin-bottom: 17px;
+    padding: 0 10px;
+    height: 100%;
+    width: 100%;
+}

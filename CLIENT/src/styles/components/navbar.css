@@ -1,0 +1,55 @@
+.nav-container{
+    background:#3A4F7A;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    /* margin-right: -20px; */
+}
+
+.nav-container nav{
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-container a{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.nav-container span{
+    display: flex;
+    font-size: 14px;
+    margin: 10px 20px 10px 20px;
+    color: white;
+    justify-content: center;
+}
+.navbar span .Hide{
+    display: none;
+}
+.nav-container .nav_kiri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    padding-left: 80px;
+}
+
+.nav-container .nav_kanan{
+    display: flex;
+    background-color: white;
+    color: #3A4F7A;
+    border-radius: 8px;
+    padding: 5px 10px 5px 10px;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.nav-container .nav_kanan:hover{
+    color: white;
+    background-color: transparent;
+    text-shadow: 0 5px 5px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+   
+}
